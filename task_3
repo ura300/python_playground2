@@ -1,0 +1,9 @@
+a=int(input())
+if a % 5 != 0 and a % 7 !=0 :
+    print("00")
+if a % 7 == 0 :
+    print("10")
+if a % 5 == 0:
+    print("01")
+if a % 5 == 0 and a % 7 == 0:
+    print("11")
