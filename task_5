@@ -1,0 +1,20 @@
+t = 4
+while True:
+    g = input('Введите число: ')
+    n = int(input())
+    from random import randint
+    p = randint(1 , n)
+    if g == p:
+        print('Вы угадали, поздравляю!')
+    break
+    t -= 1
+    if t > 0 and g > p:
+        print('Неправильно, загаданное чило меньше, осталось', t)
+    else:
+        if t > 0 and g < p:
+            print('Неправильно, загаданное чило больше, осталось', t)
+    else:
+        print('Вы проиграли')
+    break
+    
+Попробую решить ошибку дома
